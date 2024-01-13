@@ -267,6 +267,11 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@remix-run/router@1.14.2":
+  "integrity" "sha512-ACXpdMM9hmKZww21yEqWwiLws/UPLhNKvimN8RrYSqPSvB3ov7sLvAcfvaxePeLvccTQKGdkDIhLYApZVDFuKg=="
+  "resolved" "https://registry.npmjs.org/@remix-run/router/-/router-1.14.2.tgz"
+  "version" "1.14.2"
+
 "@rollup/pluginutils@^4.2.0":
   "integrity" "sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ=="
   "resolved" "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.2.1.tgz"
@@ -524,7 +529,7 @@
     "picocolors" "^1.0.0"
     "source-map-js" "^1.0.2"
 
-"react-dom@^18.0.0":
+"react-dom@^18.0.0", "react-dom@>=16.8":
   "integrity" "sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.1.0.tgz"
   "version" "18.1.0"
@@ -537,7 +542,22 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.12.0.tgz"
   "version" "0.12.0"
 
-"react@^18.0.0", "react@^18.1.0":
+"react-router-dom@^6.21.2":
+  "integrity" "sha512-tE13UukgUOh2/sqYr6jPzZTzmzc70aGRP4pAjG2if0IP3aUT+sBtAKUJh0qMh0zylJHGLmzS+XWVaON4UklHeg=="
+  "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.21.2.tgz"
+  "version" "6.21.2"
+  dependencies:
+    "@remix-run/router" "1.14.2"
+    "react-router" "6.21.2"
+
+"react-router@6.21.2":
+  "integrity" "sha512-jJcgiwDsnaHIeC+IN7atO0XiSRCrOsQAHHbChtJxmgqG2IaYQXSnhqGb5vk2CU/wBQA12Zt+TkbuJjIn65gzbA=="
+  "resolved" "https://registry.npmjs.org/react-router/-/react-router-6.21.2.tgz"
+  "version" "6.21.2"
+  dependencies:
+    "@remix-run/router" "1.14.2"
+
+"react@^18.0.0", "react@^18.1.0", "react@>=16.8":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"
