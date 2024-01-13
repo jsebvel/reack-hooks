@@ -5,7 +5,12 @@ export const TodoList = ({ todos, onDelete, onToggleTodo }) => {
   return (
     <ul className="list-group">
       {todos?.map((todo) => (
-        <TodoItem todo={todo} onDelete={onDelete} onToggleTodo={onToggleTodo}/>
+        <TodoItem
+          key={todo.id}
+          todo={todo}
+          onDelete={onDelete}
+          onToggleTodo={onToggleTodo}
+        />
       ))}
     </ul>
   );
